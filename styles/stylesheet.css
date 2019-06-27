@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    color: #244751;
+    background-color: #eeeeee;
+    font-family: "Roboto Condensed", serif;
+    height: 100%;
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    align-self: flex-start;
+    text-align: center;
+    height: 100%;
+    width: 20%;
+    background-color: darkgray;
+    padding-top: 20px;
+}
+
+.main {
+    width: 60%;
+    height: 100%;
+    background-color: grey;
+    text-align: center;
+    padding: 5vh 2vw 0px 2vw;
+
+}
+h3, h4 {
+    margin: 0;
+}
+h3 {
+    font-weight: 700;
+}
