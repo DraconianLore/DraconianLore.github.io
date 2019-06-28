@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: #222222;
     height: 110vw;
-    width: 200vh;
+    width: 110vh;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     overflow-y: scroll;
@@ -13,15 +13,16 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 200vh;
+    height: 500%;
     box-sizing: content-box;
     padding-right: 17px;
-    
 }
+
 ::-webkit-scrollbar {
     width: 10px;
     display: none;
-  }
+}
+
 .sidebar {
     align-self: flex-start;
     text-align: center;
@@ -30,41 +31,47 @@ body {
     background-color: darkgray;
     font-family: "Roboto Condensed", serif;
 }
+
 .fader-left {
-    background: linear-gradient(to right, darkgray 0%,silver 100%);
+    background: linear-gradient(to right, darkgray 0%, silver 100%);
     width: 3%;
     height: 100%;
 }
+
 .fader-right {
     background: linear-gradient(to right, silver 0%, darkgray 100%);
     width: 3%;
     height: 100%;
 }
+
 .main {
     width: 60%;
     height: 100%;
     background-color: silver;
     text-align: center;
     padding: 0 2% 0 2%;
-
 }
+
 h3, h4 {
     margin: 0;
     font-family: "Roboto Condensed", serif;
 }
+
 h1 {
     font-family: "Roboto Condensed", serif;
     margin-bottom: 5px;
 }
+
 h3 {
     font-weight: 700;
 }
+
 .inner-flex {
     display: flex;
     justify-content: space-between;
     text-align: center;
-
 }
+
 .category {
     background-color: darkgray;
     border-style: solid;
@@ -73,10 +80,12 @@ h3 {
     text-align: left;
     padding: 0.5em 1em 0.5em 1em;
 }
+
 .subcategory {
     width: 28%;
     text-align: center;
 }
+
 hr {
     width: 100%;
     border-style: solid;
@@ -87,11 +96,24 @@ hr {
 .item-list {
     margin-top: 2px;
 }
+
 p {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 .right-side {
     float: right;
     font-size: 80%;
+}
+
+.github-link img {
+    position: absolute;
+    right: 20vw;
+    top: 5vh;
+    display: none;
+}
+
+.github-link:hover img{
+    display: block;
 }
