@@ -4,9 +4,8 @@ body {
     height: 110vw;
     width: 110vh;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
     overflow-y: scroll;
-    background-color: #d8dee9;
+    background-color: #e5e9f0;
 }
 
 .page-container {
@@ -14,7 +13,8 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 500%;
+    height: 100%;
+    min-width: 400px;
     box-sizing: content-box;
     padding-right: 17px;
 }
@@ -115,6 +115,68 @@ p {
     display: none;
 }
 
-.github-link:hover img{
+.github-link:hover img {
     display: block;
+}
+
+.full-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.full-top h3 {
+    font-size: 5vw;
+}
+.full-top h4 {
+    font-size: 4vw;
+}
+
+.half-top {
+    padding: 0 1em 0 1em;
+    text-align: center;
+    min-width: 150px;
+    
+}
+
+@media screen and (min-width: 1325px) {
+    .unslip {
+        display: none;
+    }
+    .slip {
+        display: block;
+    }
+    .main {
+        width: 60%;
+    } .first-slip {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1324px) and (min-width: 800px) {
+    .unslip {
+        display: none;
+    }
+    .slip {
+        display: block;
+    }
+    .main {
+        width: 80%;
+    }
+    .first-slip {
+        display: none;
+    }
+}
+@media screen and (max-width: 799px) {
+    .slip {
+        display: none;
+    }
+    .unslip {
+        display: block;
+    }
+    .main {
+        width: 100%;
+    }
+    .first-slip {
+        display: none;
+    }
 }
