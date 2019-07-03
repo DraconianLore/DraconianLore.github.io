@@ -32,8 +32,17 @@ body {
     background-color: #d8dee9;
     font-family: "Roboto Condensed", serif;
 }
+.left-sideBar {
+    position: fixed;
+    left: 0;
+}
+.right-sideBar {
+    position: fixed;
+    right: 0;
+}
 
 .fader-left {
+    position: relative;
     background: linear-gradient(to right, #d8dee9 0%, #e5e9f0 100%);
     width: 3%;
     height: 100%;
