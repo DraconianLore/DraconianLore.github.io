@@ -27,31 +27,34 @@ body {
 .sidebar {
     align-self: flex-start;
     text-align: center;
-    height: 100%;
+    height: 120%;
     width: 17%;
     background-color: #d8dee9;
     font-family: "Roboto Condensed", serif;
 }
 .left-sideBar {
     position: fixed;
-    left: 0;
+    left: 1em;
+
+    font-size: 1.7vw;
+    z-index: 2;
 }
 .right-sideBar {
     position: fixed;
-    right: 0;
+    right: 1em;
 }
 
 .fader-left {
     position: relative;
     background: linear-gradient(to right, #d8dee9 0%, #e5e9f0 100%);
     width: 3%;
-    height: 100%;
+    height: 120%;
 }
 
 .fader-right {
     background: linear-gradient(to right, #e5e9f0 0%, #d8dee9 100%);
     width: 3%;
-    height: 100%;
+    height: 120%;
 }
 
 .main {
