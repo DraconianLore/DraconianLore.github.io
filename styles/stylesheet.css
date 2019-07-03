@@ -35,8 +35,7 @@ body {
 .left-sideBar {
     position: fixed;
     left: 1em;
-
-    font-size: 1.7vw;
+    font-size: 1.5em;
     z-index: 2;
 }
 .right-sideBar {
@@ -179,6 +178,9 @@ p {
     .first-slip {
         display: none;
     }
+    .left-sideBar {
+        font-size: 1.7vw;
+    }
 }
 @media screen and (max-width: 799px) {
     .slip {
@@ -192,5 +194,8 @@ p {
     }
     .first-slip {
         display: none;
+    }
+    .left-sideBar {
+        font-size: 1.7vw;
     }
 }
