@@ -127,6 +127,7 @@ p {
     right: 20vw;
     top: 6vh;
     display: none;
+    max-width: 50vw;
 }
 
 .github-link:hover img {
