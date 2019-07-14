@@ -32,6 +32,7 @@ hr {
     width: 99vw;
     z-index: 2;
     font-family: 'Lato', sans-serif;
+font-size: 2vh;
 }
 .top-box {
     display: flex;
@@ -42,6 +43,7 @@ hr {
     width: 20px;
     padding: 0 5px 0 0;
     text-align: center;
+
 }
 .top-cent {
     text-align: center;
