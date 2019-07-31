@@ -1,0 +1,117 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+hr {
+    width: 100%;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-top: 2px;
+}
+.heading {
+    font-family: 'Oxygen Mono', monospace;
+    text-shadow: 1px 1px grey;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+}
+.top-section {
+    padding: 20px;
+    /* position: fixed; */
+    /* background: linear-gradient(to bottom,  navy 0%, darkslategray 100%); */
+    width: 99vw;
+    z-index: 2;
+    font-family: 'Lato', sans-serif;
+/* font-size: 1.5vh; */
+}
+.top-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-section i {
+    width: 20px;
+    padding: 0 25px 0 0;
+    text-align: center;
+
+}
+.top-cent {
+    text-align: center;
+    margin: 0;
+    text-shadow: 1px 1px grey;
+
+}
+.category {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: left;
+    padding: 0.5em 1em 0.5em 1em;
+}
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 35vh; */
+    margin-bottom: 2em;
+}
+.right-side {
+    float: right;
+    font-size: 80%;
+}
+
+.inner-flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.category {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    text-align: left;
+    padding: 0.5em 1em 0.5em 1em;
+    width: 90%;
+}
+.category h2,h4 {
+    margin: 5px 0 5px 0;
+}
+.subcategory {
+    max-width: 44%;
+    text-align: center;
+    margin: 0 5px 0 5px
+}
+.subcategory h3 {
+    margin: 10px;
+}
+.github-link {
+    font-size: 150%;
+    display: none;
+}
+.github-link img {
+    position: fixed;
+    right: 15vw;
+    top: 15vh;
+    display: none;
+    max-width: 60vw;
+    z-index: 3;
+    max-height: 80vh;
+}
+
+.github-link:hover img {
+    display: block;
+}
