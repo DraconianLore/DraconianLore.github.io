@@ -107,6 +107,7 @@ font-size: 2vh;
     display: none;
     max-width: 60vw;
     z-index: 3;
+    max-height: 80vh;
 }
 
 .github-link:hover img {
