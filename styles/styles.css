@@ -64,3 +64,19 @@ a:link, a:visited  {
   color: #223843; 
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile displays: */
+  * {
+    font-size: 1em;
+  }
+  .section {
+    width: 90%;
+    min-width: 300px;
+    /* max-height: 50vh; */
+    height: initial;
+    font-size: 1em;
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0.5em 1em 0.5em 1em;
+  }
+}
