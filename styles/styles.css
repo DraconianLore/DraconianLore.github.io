@@ -79,4 +79,7 @@ a:link, a:visited  {
     margin: 0.5em 1em 0.5em 1em;
     padding: 0.5em 1em 0.5em 1em;
   }
+  .resume .contact-cent {
+    font-size: 3vh;
+  }
 }
